@@ -14,7 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //This method is called when the button is clicked
     public void goToActivity (View view){
+        //Goes to the GoodbyeActivity from this, the MainActivity
         Intent intent = new Intent(this, GoodbyeActivity.class);
         startActivity(intent);
 
